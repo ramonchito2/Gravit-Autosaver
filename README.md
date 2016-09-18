@@ -22,7 +22,8 @@ If any point you become idle and haven't saved in more than 5 minutes (idle mean
 
 > **If you want to change the autosave time limit or idle time, you can find that in the js files:**
 
->idleTimer   = null;
+>```javascript
+idleTimer   = null;
 idleState   = false;
 idleWait    = 10000; // 10 seconds
 saveTimer   = null;
@@ -30,3 +31,4 @@ saveTime    = 300000; // 5 minutes
 timeStarted = false;
 timetosave  = false;
 changesmade = false;
+```
